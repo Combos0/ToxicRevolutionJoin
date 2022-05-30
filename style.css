@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+}
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-blurb {
+    display: flex;
+}
