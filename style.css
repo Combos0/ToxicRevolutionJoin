@@ -6,10 +6,14 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: green;
+    color: white;
 }
 
 .logo {
-
+    font-size: 32px;
+    font-weight: bold;
+    padding: 16px;
 }
 
 .header ul {
@@ -21,6 +25,7 @@
 .overview {
     display: flex;
     justify-content: center;
+    background-color: gray;
 }
 .users {
     display: flex;
@@ -30,4 +35,77 @@
 
 .profile-blurb {
     display: flex;
+    gap: 16px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.users-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border: 8px solid green;
+    border-radius: 8px;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+}
+
+.signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color: green;
+    color: white;
+    padding: 24px;
+}
+
+.join-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+}
+
+.overview div {
+    max-width: 500px;
+    padding: 24px 100px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.wrap-quotes {
+    margin-top: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-author {
+    font-size: large;
+    font-weight: 600;
 }
